@@ -1,0 +1,178 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    min-height: 100vh;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.header,.hero {
+    background: #1f2937;
+    color:white;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:24px 160px 32px 160px;
+    color:#f9f4f8;
+}
+.logo{
+    font-size: 24px;
+    
+}
+
+.header .links{
+    display:flex;
+    gap:16px;
+    
+}
+
+.hero{
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding:0 160px;
+    padding-bottom:48px;
+}
+.hero-left-section {
+    display:flex;
+    justify-content: flex-start;
+    gap:16px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /*flex-grow:1;*/
+    padding-right:16px;
+
+}
+.hero-right-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero img{
+    max-width: 300px;
+}
+
+.hero-header{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8;
+}
+.hero button{
+    background-color: #3882f6;
+    color:white;
+    border-radius:5px;
+    border:none;
+    padding:4px 8px;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    padding:32px 100px 80px 100px;
+}
+.info-header {
+    display:flex;
+    font-size:36px;
+    color:#1f2937;
+    font-weight: bolder;
+    justify-content: center;
+    padding:32px;
+    
+}
+.info-container{
+    display:flex;
+    gap:4px;
+    justify-content: center;
+    align-items: center;
+    padding:16px;
+}
+.info-container img{
+    max-width:200px;
+    border-radius: 5px;
+}
+
+.info-container div{
+    text-align: center;
+    padding:8px;
+    
+}
+
+.info-container .info-item{
+    max-width:320px;
+}
+
+
+
+.quote {
+    background: #e5e7eb ;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding:60px 160px;
+    gap:40px;
+    
+}
+
+.quote-text{
+    font-size: 36px;
+    color:#1f2937;
+}
+.quote-credit{
+    font-weight: bold;
+    align-self: flex-end;
+    color:#1f2937;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    margin:80px 300px;
+    background-color: #3882f6;
+    padding:32px;
+    border-radius: 20px;
+    color:white;
+ 
+}
+.call-to-action div{
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+   
+}
+.call-to-action-header{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.call-to-action-subheader {
+    font-size: 12px;
+}
+
+.call-to-action button{
+    color:white;
+    background-color: #3882f6;   
+    border: solid white 2px;
+    border-radius: 5px;
+}
+
+
+.footer{
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    padding:16px;
+    color:white;
+}
